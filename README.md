@@ -1,9 +1,9 @@
 # Descrição
 
-Repositório com um app RESTful, utilizando como base o PostgresSQL como banco de dados armazenar os POI (Points of Interests) do mapa.
+Repositório com um app REST, utilizando o PostgresSQL como banco de dados para armazenar os POI (Points of Interests) do mapa.
 Dada uma localização (x,y) é feito o cálculo da distância no plano cartesiado, mostrando como resultados locais com menos de 10m de distância.
 
-Cadastrando um novo POI
+Cadastrando um novo Ponto de interesse
 -----------------------
 
 Para o cadastro de Pontos de Interesse, em seu client HTTP, colocar o seguinte caminho:
