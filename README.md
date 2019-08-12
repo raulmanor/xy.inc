@@ -44,13 +44,13 @@ CREATE DATABASE "xy.Inc"
        LC_CTYPE = 'English_United States.1252'
        CONNECTION LIMIT = -1;
 
-       CREATE TABLE poi
-(
+       CREATE TABLE poi(
   ponto character varying(50) NOT NULL,
   coox character varying(50) NOT NULL,
   cooy character varying(50) NOT NULL,
   CONSTRAINT poi_ponto_key UNIQUE (ponto)
 )
+
 
 TESTES
 -----------------------
