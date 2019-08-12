@@ -34,7 +34,6 @@ Para descobrir quais são os Pontos de interesse próximos da localização, uma
 
 Criação do banco
 ----------------
-
 Script para criaçao do banco de dados 
 
 CREATE DATABASE "xy.Inc"
