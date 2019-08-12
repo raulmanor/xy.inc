@@ -36,20 +36,20 @@ Criação do banco
 ----------------
 Script para criaçao do banco de dados 
 
-CREATE DATABASE "xy.Inc"
-  WITH OWNER = postgres
-       ENCODING = 'UTF8'
-       TABLESPACE = pg_default
-       LC_COLLATE = 'English_United States.1252'
-       LC_CTYPE = 'English_United States.1252'
-       CONNECTION LIMIT = -1;
+        CREATE DATABASE "xy.Inc"
+        WITH OWNER = postgres
+            ENCODING = 'UTF8'
+            TABLESPACE = pg_default
+            LC_COLLATE = 'English_United States.1252'
+            LC_CTYPE = 'English_United States.1252'
+            CONNECTION LIMIT = -1;
 
-       CREATE TABLE poi(
-  ponto character varying(50) NOT NULL,
-  coox character varying(50) NOT NULL,
-  cooy character varying(50) NOT NULL,
-  CONSTRAINT poi_ponto_key UNIQUE (ponto)
-)
+        CREATE TABLE poi(
+        ponto character varying(50) NOT NULL,
+        coox character varying(50) NOT NULL,
+        cooy character varying(50) NOT NULL,
+        CONSTRAINT poi_ponto_key UNIQUE (ponto)
+        )
 
 
 TESTES
